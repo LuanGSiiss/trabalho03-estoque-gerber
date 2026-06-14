@@ -1,0 +1,27 @@
+=============================================
+RELATÓRIO OPERACIONAL AUTOMATIZADO - INFRA CLOUD
+Data/Hora: 2026-06-14 18:02:55
+Projeto: Estoque Gerber Cloud
+Tema: Sistema de Gestão de Estoque para Lojas
+=============================================
+
+[ESPAÇO EM DISCO]
+Filesystem      Size  Used Avail Use% Mounted on
+overlay        1007G  3.5G  953G   1% /
+
+[STATUS DO APACHE]
+Status: ONLINE
+
+[ÚLTIMOS BACKUPS]
+total 0
+-rw-r--r-- 1 root root 308 Jun 14 17:51 backup_estoque_2026-06-14_17-06.tar.gz
+
+[DIRETÓRIOS E PERMISSÕES DO ESTOQUE]
+total 0
+drwxr-x--- 1 gerente_estoque estoque_ops 4096 Jun 14 17:50 .
+drwxrwxrwx 1 root            root        4096 Jun 14 17:50 ..
+drwxr-x--- 1 gerente_estoque estoque_ops 4096 Jun 14 17:50 fornecedores
+drwxr-x--- 1 gerente_estoque estoque_ops 4096 Jun 14 17:50 inventario_logs
+drwxr-x--- 1 gerente_estoque estoque_ops 4096 Jun 14 17:50 pedidos
+drwxr-x--- 1 gerente_estoque estoque_ops 4096 Jun 14 17:50 produtos
+=============================================

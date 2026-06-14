@@ -1,0 +1,7 @@
+========= INICIANDO DEPLOY DO ESTOQUEMASTER =========
+[OK] Deploy realizado com sucesso no Apache!
+Arquivos publicados:
+total 12K
+drwxr-xr-x 2 root root 4.0K Jun 14 17:52 assets
+-rwxr-xr-x 1 root root 2.2K Jun 14 17:52 index.html
+-rwxr-xr-x 1 root root 1.3K Jun 14 17:52 sobre.html

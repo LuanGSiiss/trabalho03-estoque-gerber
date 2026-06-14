@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Estoques Gerber - Painel de Controle</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f4f6f9; color: #333; }
+        header { background-color: #2c3e50; color: white; padding: 20px; text-align: center; border-radius: 5px; }
+        nav { margin: 20px 0; text-align: center; }
+        nav a { margin: 0 15px; color: #2980b9; text-decoration: none; font-weight: bold; }
+        .container { background: white; padding: 20px; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background-color: #27ae60; color: white; }
+        .alert { color: red; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Estoque Gerber v1.0</h1>
+        <p>Sistema Cloud de Gestão de Inventário e Produtos</p>
+    </header>
+    <nav>
+        <a href="index.html">Painel Principal</a> | 
+        <a href="sobre.html">Sobre o Sistema</a>
+    </nav>
+    <div class="container">
+        <h2>Produtos em Baixo Estoque</h2>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Produto</th>
+                <th>Categoria</th>
+                <th>Quantidade</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>001</td>
+                <td>Smartphone XYZ</td>
+                <td>Eletrônicos</td>
+                <td>3</td>
+                <td class="alert">Estoque Crítico</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Notebook Gamer</td>
+                <td>Informática</td>
+                <td>15</td>
+                <td>Regular</td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>Teclado Mecânico</td>
+                <td>Periféricos</td>
+                <td>50</td>
+                <td>Excelente</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

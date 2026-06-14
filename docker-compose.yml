@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  trabalho03-estoque-gerber:
+    build: .
+    container_name: trabalho03-estoque-gerber
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/app
+    stdin_open: true
+    tty: true
