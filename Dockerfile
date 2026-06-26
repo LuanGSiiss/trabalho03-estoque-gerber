@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install -y \
     sudo \
     procps \
     bc \
+    apache2 \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
@@ -20,5 +21,4 @@ RUN chmod +x /app/scripts/*.sh
 
 EXPOSE 80
 
-# Mantém o container vivo em background
-CMD ["tail", "-f", "/dev/null"]
+CMD ["apachectl", "-D", "FOREGROUND"]
